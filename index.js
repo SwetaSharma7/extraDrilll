@@ -113,7 +113,7 @@ function nameWithS(got) {
       console.error("Error occurred:");
       return null;
     }
-  }
+}
   
   let ans = nameWithS(got);
   
@@ -160,7 +160,7 @@ function nameWithA(got) {
     } 
 }
 
-    let  nameA = nameWithA();
+    let  nameA = nameWithA(got);
 
     if(nameA !== null){
         console.log(nameA);
@@ -168,8 +168,8 @@ function nameWithA(got) {
         console.log('got an error during solving this problem');
     }
 
-    // 6. Write a function called `surnameWithS` which returns a array of names of all the people 
-    // in `got` variable whoes surname is starting with `S`(capital s).
+//  6. Write a function called `surnameWithS` which returns a array of names of all the people 
+// in `got` variable whoes surname is starting with `S`(capital s).
     
 
     function surnameWithS(got) {
